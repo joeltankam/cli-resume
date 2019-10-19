@@ -1,0 +1,36 @@
+{
+  "name": "joeltankam",
+  "version": "1.0.0",
+  "description": "My resume as CLI  🚀",
+  "main": "src/index.js",
+  "bin": {
+    "joeltankam": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeltankam/cli-resume.git"
+  },
+  "keywords": [
+    "cli",
+    "resume",
+    "joeltankam"
+  ],
+  "author": "Joel TANKAM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeltankam/cli-resume/issues"
+  },
+  "homepage": "https://github.com/joeltankam/cli-resume#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
