@@ -1,6 +1,7 @@
 #!/usr/bin/env node --experimental-modules
 
 const program = require('commander');
+const AboutMeLogger = require('./loggers/AboutMeLogger.js');
 
 program
     .option('-a, --about-me', 'output information about me 👨🏽‍💼')
@@ -11,3 +12,8 @@ program
     .option('-l, --languages', 'output my language skills 🌍')
     .option('-r, --references', 'output my references 👨‍⚖️')
     .option('-o, --hobbies', 'output my hobbies 🕺');
+
+program.parse(process.argv);
+
+const summaryData = require('../assets/about.json');
+new AboutMeLogger(summaryData, program.aboutMe).log();

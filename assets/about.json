@@ -1,0 +1,14 @@
+{
+  "fullName" : "Joel TANKAM",
+  "title" : "Software Engineer",
+  "summary" : "Enthusiastic, multilingual Software Engineer with proven experience in various fields of software development. My background in Mathematics helped me develop outstanding organizational skills, an analytical and logical approach to problem-solving and the ability to work under pressure. I can work well on both my initiative and as part of a team too. In short, I am reliable, trustworthy, hard-working and eager to learn.",
+  "contact" : {
+    "email" : "joel.tankam@gmail.com",
+    "phone" : "+212 (0) 6 8199 7669"
+  },
+  "social" : [
+    {"website" : "GitHub", "url" : "https://github.com/", "username" : "joeltankam"},
+    {"website" : "Twitter", "url" : "https://twitter.com/", "username" : "joeltankam"},
+    {"website" : "LinkedIn", "url" : "https://www.linkedin.com/in/", "username" : "joeltankam"}
+  ]
+}
