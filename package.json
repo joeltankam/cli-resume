@@ -1,7 +1,7 @@
 {
   "name": "joeltankam",
   "version": "1.0.0",
-  "description": "My resume as CLI  🚀",
+  "description": "My resume as CLI 🚀",
   "main": "src/index.js",
   "bin": {
     "joeltankam": "src/index.js"

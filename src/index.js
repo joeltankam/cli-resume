@@ -1,7 +1,8 @@
-#!/usr/bin/env node --experimental-modules
+#!/usr/bin/env node
 
 const program = require('commander');
 const AboutMeLogger = require('./loggers/AboutMeLogger.js');
+const ExperienceLogger = require('./loggers/ExperienceLogger.js');
 
 program
     .name('joeltankam')
@@ -18,8 +19,13 @@ program
 program.parse(process.argv);
 
 const summaryData = require('../assets/about.json');
-new AboutMeLogger(summaryData, program.aboutMe).log();
+new AboutMeLogger(summaryData, program.aboutMe || program.all).log();
 
+if (program.experience || program.all) {
+    console.log();
+    const experienceData = require('../assets/experience.json');
+    new ExperienceLogger(experienceData).log();
+}
 console.log();
 if (!process.argv.slice(2).length) {
     program.outputHelp();

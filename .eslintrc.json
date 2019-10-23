@@ -3,6 +3,7 @@
   "rules": {
     "no-console": "off",
     "import/newline-after-import": "off",
+    "global-require": "off",
     "indent": [
       "warn",
       4

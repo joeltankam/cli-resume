@@ -1,0 +1,55 @@
+[
+  {
+    "title" : "R&D Software Engineer",
+    "type" : "Full-time",
+    "company" : "Société Générale - Africa Technologies & Services",
+    "location": "Casablanca, Morocco",
+    "date" : {
+      "start" : "2018-08-13"
+    },
+    "description" : "Software engineering using .NET ecosystem. Including but not limited to: continuous integration, continuous delivery, applied machine learning...etc."
+  },
+  {
+    "title" : "R&D Software Engineer",
+    "type" : "Internship",
+    "company" : "Société Générale - Africa Technologies & Services",
+    "location": "Casablanca, Morocco",
+    "date" : {
+      "start" : "2018-02-01",
+      "end" : "2018-07-27"
+    },
+    "description" : "I worked on a new solution of automated detection and correction of dead code within all the company projects (several millions of lines of code)."
+  },
+  {
+    "title" : "Mobile Application Developer",
+    "type" : "Internship",
+    "company" : "Nickel-IT Sarl",
+    "location": "Rabat, Morocco",
+    "date" : {
+      "start" : "2017-07-03",
+      "end" : "2018-09-07"
+    },
+    "description" : "My mission was to design, implement, deploy and maintain a recommendation app with an agile development cycle."
+  },
+  {
+    "title" : "Web Developer",
+    "type" : "Internship",
+    "company" : "The Minister of Economy, Finance and Administration Reform",
+    "location": "Rabat, Morocco",
+    "date" : {
+      "start" : "2016-06-27",
+      "end" : "2016-08-05"
+    },
+    "description" : "I worked on building an automated service desk process flow using Java EE platform."
+  },
+  {
+    "title" : "Web Developer",
+    "type" : "Freelance",
+    "location": "Rabat, Morocco",
+    "date" : {
+      "start" : "2015-10-01",
+      "end" : "2016-06-31"
+    },
+    "description" : "I worked on several aspects of Web development with various young startups such as Societall, Stuzeen, Africa Key Partners."
+  }
+]

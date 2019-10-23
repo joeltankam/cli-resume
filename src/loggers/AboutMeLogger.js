@@ -11,6 +11,7 @@ module.exports = class AboutMeLogger {
         console.log(chalk.italic(this.data.title));
 
         if (!this.showDetails) return;
+        console.log();
         console.log(chalk.cyan('About me'));
         console.log(chalk.gray(this.data.summary));
         AboutMeLogger.logContact(this.data.contact);
