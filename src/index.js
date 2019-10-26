@@ -3,6 +3,7 @@
 const program = require('commander');
 const AboutMeLogger = require('./loggers/AboutMeLogger.js');
 const ExperienceLogger = require('./loggers/ExperienceLogger.js');
+const EducationLogger = require('./loggers/EducationLogger.js');
 
 program
     .name('joeltankam')
@@ -27,6 +28,14 @@ if (program.experience || program.all) {
     new ExperienceLogger(experienceData).log();
 }
 console.log();
+
+if (program.education || program.all) {
+    console.log();
+    const educationData = require('../assets/education.json');
+    new EducationLogger(educationData).log();
+}
+console.log();
+
 if (!process.argv.slice(2).length) {
     program.outputHelp();
 }

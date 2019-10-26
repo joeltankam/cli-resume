@@ -1,0 +1,32 @@
+[
+  {
+    "diploma" : "Master of Engineering",
+    "field" : "Computer Science",
+    "school" : "Mohammadia School of Engineering",
+    "location": "Rabat, Morocco",
+    "date" : {
+      "start" : "2015-08-31",
+      "end" : "2018-07-13"
+    },
+    "description" : "Several courses and projects including Project management, Software Development, Applied Mathematics, Theory of Programming languages, Embedded Systems...",
+    "awards" : [
+      "Top of Computer Science Master Degree class with a GPA of 16.50 (out of 20)",
+      "2nd-year School valedictorian with a GPA of 16.49 (out of 20)",
+      "First-year Computer Engineering valedictorian with a GPA of 16.68 (out of 20)"
+    ]
+  },
+  {
+    "diploma" : "Diploma of Higher Education",
+    "field" : "Mathematics, Physics and Engineering Sciences",
+    "school" : "Al Khansaa Higher School Preparatory Classes",
+    "location": "Casablanca, Morocco",
+    "date" : {
+      "start" : "2013-10-09",
+      "end" : "2015-06-03"
+    },
+    "description" : "Two years of scientific study",
+    "awards" : [
+      "91 out of 2975 at the National Engineering School Entrance Exam"
+    ]
+  }
+]
